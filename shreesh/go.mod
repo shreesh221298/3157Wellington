@@ -1,4 +1,4 @@
-module shreesh
+module github.com/harsimranmaan/pp-classiv/shreesh
 
 go 1.20
 
