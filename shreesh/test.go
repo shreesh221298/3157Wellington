@@ -15,7 +15,7 @@ func main() {
 	check := widget.NewCheck("Optional", func(value bool) {
 		log.Println("Check set to", value)
 	})
-	radio := widget.NewRadioGroup([]string{"Option A", "Option C"}, func(value string) {
+	radio := widget.NewRadioGroup([]string{"Option A", "Option D"}, func(value string) {
 		log.Println("Radio set to", value)
 	})
 	combo := widget.NewSelect([]string{"Option 1", "Option 2"}, func(value string) {
